@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<title>calculator</title>
+
+	<link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<script src="vendor/jquery-1.11.3.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+   <div class="mainContainer">
+   	    <div class="row displayContainer">
+   	    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 displayRow">
+   	    		<input type="text" id="displayValue" placeholder="0" value="">
+   	    	</div>
+   	    </div>
+   	    <div class="row deleteContainer">
+   	    	<div class="col-xs-9 col-sm-6 col-md-6 col-lg-6 emptyRow"></div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 clearRow" id="clr"><button><b>clear</b></button></div>
+   	    	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 deleteRow" id="del"><button><b>delete</b></button></div>
+   	    </div>
+   	    <div class="row firstRowContainer">
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 firstRow" id="7"><button value="7"><b>7</b></button></div>
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 firstRow" id="8"><button value="8"><b>8</b></button></div>
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 firstRow" id="9"><button value="9"><b>9</b></button></div>
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 firstRow" id="divide"><button value="/"><b>/</b></button></div>
+   	    </div>
+   	    <div class="row secondRowContainer">
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 secondRow" id="4"><button value="4"><b>4</b></button></div>
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 secondRow" id="5"><button value="5"><b>5</b></button></div>
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 secondRow" id="6"><button value="6"><b>6</b></button></div>
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 secondRow" id="mul"><button value="x"><b>x</b></button></div>
+   	    </div>
+   	    <div class="row thirdRowContainer">
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 thirdRow" id="1"><button value="1"><b>1</b></button></div>
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 thirdRow" id="2"><button value="2"><b>2</b></button></div>
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 thirdRow" id="3"><button value="3"><b>3</b></button></div>
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 thirdRow" id="sub"><button value="-"><b>-</b></button></div>
+   	    </div>
+   	    <div class="row fourthRowContainer">
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 fourthRow" id="dot"><button value="."><b>.</b></button></div>
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 fourthRow" id="0"><button value="0"><b>0</b></button></div>
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 fourthRow" id="equalTo"><button value="="><b>=</b></button></div>
+   	        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 fourthRow" value='+' id="sum"><button value="+"><b>+</b></button></div>
+   	    </div>	
+   </div>
+
+</body>
+</html>
